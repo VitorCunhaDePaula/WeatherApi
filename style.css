@@ -1,0 +1,89 @@
+html{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%); 
+}
+
+.title{
+    color: #fdfddf;
+    position: absolute;
+    top: 24%;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    place-content: center;
+    width: 20em;
+    height: 20em;
+    background-color: #5c54ed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    border-radius: 10px;
+    color: #fdfddf;
+}
+form{
+    margin: 0.8em auto;
+    border-bottom: 1px white solid;
+    padding: 2em;
+}
+
+input{
+    height: 2.4em;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button{
+    height: 2.2em;
+    width: 2.8em;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+.details-container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.flag{
+    height: 1em;
+    padding: 0;
+    margin: -0.2em;
+    margin-left: 0em;
+    
+}
+
+.description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-data{
+    display: none;
+}
+
+.notFound{
+    text-align: center;
+    display: none;
+
+}
